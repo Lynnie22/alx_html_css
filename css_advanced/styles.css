@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px 30px
+}
+main {
+    background-image: url(./assets/Object.png);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+}
+
+button {
+    background-color: #C271FF;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 2px 20px #000000;
+    display: inline;
+   
+}
+
+button:hover {
+    background-color: #190728;
+}
