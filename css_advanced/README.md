@@ -47,13 +47,16 @@ This project is a webpage for Smile School, an educational platform focused on t
 ![Testimonials Section](./assets/IMAGES/testimonial%20section.png)
 
 ### Tutorials Section
-![Tutorials Section](./assets/IMAGES/tutorial%20section.png)
+![Tutorials Section](./assets/IMAGES/tutorialsb.png)
 
 ### Membership Section
 ![Membership Section](./assets/IMAGES/membership%20section.png)
 
 ### FAQ Section
 ![FAQ Section](./assets/IMAGES/FAQ%20section.png)
+
+### Footer Section
+![FAQ Section](./assets/IMAGES/footer.png)
 
 ## License
 
