@@ -121,10 +121,13 @@ h4 {
 .bannerwinners {
     display: flex;
     gap: 40px;
+    text-align: center;
 }
 
 .bruceimg {
     border-radius: 50%;
+
+
 }
 /*------------------------------main testimonials section-----------------------------*/
 .testimonials {
