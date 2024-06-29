@@ -9,26 +9,41 @@ body {
     background-image: url(./assets/Object.png);
     background-size: contain;
     color: white;
+    font-family: 'SourceSansPro' , sans-serif;
 }
 
 
 .highlight {
     color: #C271FF;
+    font-weight: bold;
 }
 
 p {
     line-height: 1.2;
 }
 
+h1 {
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+}
+
 h2 {
     text-align: center;
     margin-bottom: 4rem;
     font-size: 32px;
+    font-weight: 100;
+}
+
+h4 {
+    margin-top: 10px;
 }
 
 h5 {
     font-size: 14px;
     color: #C271FF;
+    font-weight: lighter;
+    
     
 }
 /*------------------------------header-----------------------------*/
@@ -57,11 +72,7 @@ nav ul li {
 }
 
 /*------------------------------main banner section-----------------------------*/
-h1 {
-    color: white;
-    font-size: 120px;
-    font-weight: bold;
-}
+
 
 .bannersection span {
     margin-left: 25px;
@@ -71,8 +82,11 @@ h4 {
     margin-bottom: 5px;
     font-size: 18px;
 }
-
-.bannersection p {
+.banner p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.bannerwinners p {
     font-style: italic;
     text-align: center;
 }
@@ -172,6 +186,11 @@ h4 {
 
 .rating p {
     color: #C271FF;
+}
+
+.vidssummary p {
+    font-size: 14px;
+    font-weight: lighter;
 }
 
 
