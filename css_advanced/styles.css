@@ -207,7 +207,26 @@ h4 {
     font-weight: lighter;
 }
 
+.image-container {
+    position: relative;
+    display: inline-block; 
+}
 
+.backgroundimage {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}
+
+.foregroundimage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px; 
+    height: 64px;
+    height: auto; 
+}
 
 /*------------------------------main membership section-----------------------------*/
 .membership {
@@ -238,7 +257,9 @@ h4 {
     grid-template-columns: 1fr 1fr;
     gap: 8rem;
 }
-
+.item-block h4 {
+    margin-bottom: 2rem;
+}
 .FAQ {
     display: flex;
     flex-direction: column;
@@ -270,4 +291,9 @@ footer {
 
 i {
     margin-left: 1rem
+}
+
+a i {
+    text-decoration: none;
+    color: white;
 }
