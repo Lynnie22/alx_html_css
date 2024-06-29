@@ -38,6 +38,23 @@ This project is a webpage for Smile School, an educational platform focused on t
 - `index.html`: The main HTML file for the webpage.
 - `styles.css`: The CSS file for styling the webpage.
 
+## Screenshots
+
+### Banner Section
+![Banner Section](./assets/IMAGES/HEADER%20AND%20BANNER.png)
+
+### Testimonials Section
+![Testimonials Section](./assets/IMAGES/testimonial%20section.png)
+
+### Tutorials Section
+![Tutorials Section](./assets/IMAGES/tutorial%20section.png)
+
+### Membership Section
+![Membership Section](./assets/IMAGES/membership%20section.png)
+
+### FAQ Section
+![FAQ Section](./assets/IMAGES/FAQ%20section.png)
+
 ## License
 
 This project is licensed under the *** License.
