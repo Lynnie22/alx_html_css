@@ -1,0 +1,120 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#071629;
+    --accent-color :#FF6565;
+    --text-color:#ffffff;
+    --bg-color:#ffffff;
+    --boldfont: 700;
+    --regularfont:400;
+    --semiboldfont:600;
+}
+
+html,body {
+      font-family: "Source Sans 3", sans-serif;
+      height: 100%;
+      width: 100%;
+      
+     
+     
+}
+
+.wrapper {
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* ------------------------------------hero section---------------------------------------------------------- */
+.hero-section {
+    height: 90vh;
+    width: 100%;
+    background-image: url(./assets/images/images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color);
+    
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+    margin-top: 50px;
+    max-width: 637px;
+
+    text-align: center;
+}
+
+.primary-btn {
+    background-color: var(--accent-color);
+    color: white;
+    font-weight: var(--boldfont);
+    cursor: pointer;
+    padding: 13px 31px 13px 31px;
+    border: none;
+    border-radius: 100vw;
+    box-shadow: 0px 2px 20px #00000091;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+/* ------------------------------------what we do section---------------------------------------------------------- */
+.what-we-do {
+    background-color: var(--bg-color);
+    color: var(--main-color);
+
+}
+
+.what-we-do-icons {
+    display: grid;
+    gap: 6rem;
+}
+
+.what-we-do-icons > img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* media queries */
+/* @media screen and (max-width:375px) {
+    .what-we-do-icons {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        background-color: aqua;
+    }
+    
+} */
+
+@media screen and (min-width:768px) {
+    .what-we-do-icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        background-color: beige;
+    }
+    
+}
+
+
+@media screen and (min-width:1000px) {
+    .what-we-do-icons{ 
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+    
+}
