@@ -27,21 +27,19 @@ html,body {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-     
-     
 }
 
 p{
     line-height: 1.5;
 }
+
 .wrapper {
     max-width: 1068px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 1.75rem;
-   
-
 }
+
 /* text styles */
 .hero-section h1 {
     font-weight: var(--boldfont);
@@ -64,10 +62,6 @@ h2 {
     font-weight: var(--regularfont);
 }
 
-.numeral-results {
-    font-size: 46px;
-    font-weight: var(--boldfont);
-}
 
 
 /* ------------------------------------navigation section---------------------------------------------------------- */
@@ -144,162 +138,6 @@ h2 {
     
 }
 
-/* ------------------------------------what we do section---------------------------------------------------------- */
-.what-we-do{
-    background-color: var(--bg-color);
-    color: var(--main-color);
-    padding: 3rem 1rem;
-    
-
-}
-
-.what-we-do-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    text-align: center;
-    height: 100%;
-}
-
-.section-summary {
-    max-width: 637px;
-    
-}
-
-
-.icons-container {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    gap:3.6rem;
-
-}
-
-.what-we-do-images {
-    width: 68px;
-    height: 77px;
-}
-
-/* ------------------------------------results section---------------------------------------------------------- */
-.results {
-    background-image: url('./assets/images/images/headphones_hero_2.jpg');
-    padding: 3rem 1rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: var(--text-color);
-}
-
-.results-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    text-align: center;
-    height: 100%;
-}
-
-.pentagone {
-    width: 190px;
-    height: 190px;
-}
-
-.icon-wrapper{
-    position: relative;
-}
-.results-details {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-/* ------------------------------------end of results section---------------------------------------------------------- */
-
-/* ------------------------------------contact section---------------------------------------------------------- */
-.contact-form {
-    height: 90vh;
-    background-color: var(--bg-color);
-    color: var(--main-color);
-
-}
-
-.contact-container {
-    width: 335px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    
-}
-
-form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-label {
-    display: block;
-    width: 100%;
-    
-}
-
-input, textarea{
-    width: 100%;
-    padding: 5px 0;
-    border: none;
-    border-bottom: 1px solid #071629;
-    background: none;
-    outline: none;
-    margin-bottom: 20px;
-}
-
-.contact-form h2 {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-button {
-    margin: 0 auto;
-}
-/* ------------------------------------end of contact section---------------------------------------------------------- */
-
-/* ------------------------------------footer section---------------------------------------------------------- */
-footer {
-    
-    background-color: var(--main-color);
-    color: var(--text-color);
-    padding: 5.5rem 0px;
-    
-}
-
-.footer-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.socials {
-    display: flex;
-    gap: 20px;
-}
-
-
-.signature {
-   text-align: center;
-   margin-top: 3.5rem;
-   color: #ffffff5c;
-}
-/* ------------------------------------end of footer section---------------------------------------------------------- */
-
 /* Responsive Navigation Menu */
 .menu-toggle {
     display: none;
@@ -342,7 +180,7 @@ footer {
 
 /* media queries */
 @media screen and (max-width:375px) {
-    
+
     .menu-toggle:checked ~ .nav-menu {
         display: flex;
         flex-direction: column;
@@ -351,7 +189,6 @@ footer {
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: var(--main-color);
     }
 
     .menu-icon {
@@ -362,25 +199,19 @@ footer {
         display: none;
     }
 
-    .footer-nav {
-        flex-direction: column;
-        gap: 50px;
-        justify-content: center;
-        align-items: center;
-    }
-
     .wrapper {
-        padding: 0 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        
     }
+
+    .nav-menu-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
 }
 
-@media screen and (max-width:768px) {
-    .icons-container {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-    }
-}
-
-@media screen and (min-width:769px) {
-    
-}
